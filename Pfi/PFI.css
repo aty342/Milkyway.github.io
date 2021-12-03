@@ -1,0 +1,166 @@
+
+#grillemenu
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:1px;
+	margin-left:1px;
+	display:grid;
+	grid-template-columns: 1fr 6fr;
+	grid-template-rows: 3fr 20fr 3fr;
+	grid-column-gap:1%;
+	height: 97vh;
+	width: 97vw;
+	background-color:black;
+}
+#headerStyle
+{
+	color:white;
+	padding:1%;
+	grid-column: 1 / 6;
+	grid-rows: 1 / 3;
+	background-image: url("image/background.jpg");
+	
+	
+}
+#footerstyle
+{
+	color:white;
+	grid-column: 1 / 6;
+	grid-rows: 23 / 25;
+	background-image: url("image/background.jpg");
+}
+#mainStyle
+{
+	color:white;
+	grid-column: 2 / 6;
+	grid-rows: 3 / 22;
+	grid-row-gap:5%;
+}
+#NavStyle
+{
+	text-align:center;
+	color:white;
+	grid-column: 1 / 2;
+	grid-rows: 3 / 22;
+	background-image: url("image/backgroundmain.jpeg");
+}
+.navigation
+{
+	color:white;
+	border: 1px solid white;
+	padding:10%;
+	margin: 5%;
+}
+.navigation:hover
+{
+	background-color:white;
+	color:black;
+}
+#accueilpage1
+{
+	color:white;
+	border: 1px solid white;
+	padding:10%;
+	margin: 5%;
+	background:black;
+	opacity:0.5;
+}
+#menuderoulant
+{
+	text-align:center;
+	color:white;
+	border: 1px solid white;
+	margin: 5%;
+	height: 4%;
+	padding: 1%;
+}
+#menuderoulant:hover>#divenglobant
+{
+	display:block;
+}
+#divenglobant
+{
+	padding:5%;
+	display:none;         
+}
+#lesjoueurspage1
+{
+	color:white;
+	border: 1px solid white;
+	padding:10%;
+	margin: 5%;
+	background:black;
+	opacity:0.5;
+}
+#GalleriesMenu
+{
+	color:white;
+	border: 1px solid white;
+	padding:10%;
+	margin: 5%;
+	background:black;
+	opacity:0.5;
+}
+.imagemain
+{
+	margin-left:45%;
+}
+#textepageaccuiel
+{
+	margin-left:45%;
+	font-size:200%;
+	color:#666666;
+}
+#textepageaccuiel::first-letter
+{
+	color:white;
+}
+#textepageaccuie::last-letter
+{
+	color:white;
+}
+.other-color
+{ 
+    color:white;	
+}
+#TextPrésentationMilky
+{
+	text-align:center;
+	
+}
+#green-color-choco
+{
+	color:green;
+}
+.grey-milkyway
+{
+	color:#666666;
+}
+#orange-color-choco
+{
+	color:orange;
+}
+.Titre
+{
+	font-size:200%;
+	color:white;
+	text-align:center;
+	 text-shadow: 2px 2px #666666
+}
+#choco-name
+{
+	font-size:250%;
+	margin-left:1%;
+}
+#choco-text
+{
+	color:#F0FFF0;
+	margin-left:4%;
+	font-size:115%;
+}
+.blocText
+{
+   
+}
